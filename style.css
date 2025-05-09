@@ -1,0 +1,47 @@
+body {
+  margin: 20px;
+  font-family: sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  text-align: center;
+}
+
+#dropArea {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  height: 100px;
+  border: 2px dashed #666;
+  border-radius: 8px;
+  line-height: 100px;
+  color: #666;
+  background: #fafafa;
+}
+
+#btnCheck {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#planetContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.planet {
+  width: 80px;
+  height: 80px;
+  cursor: grab;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.planet.dragging {
+  opacity: 0.5;
+}
